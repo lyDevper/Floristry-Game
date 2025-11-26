@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6p2wvtwgdk2u"]
+
+[ext_resource type="PackedScene" uid="uid://djp71neybbibg" path="res://scenes/flowers/FlowerObject.tscn" id="1_wsrt0"]
+[ext_resource type="Resource" uid="uid://bh6dd88r00yyn" path="res://data/tulip_data.tres" id="2_237f0"]
+
+[node name="Tuplip" instance=ExtResource("1_wsrt0")]
+data = ExtResource("2_237f0")

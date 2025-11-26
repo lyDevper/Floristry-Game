@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://bh6dd88r00yyn"]
+
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_jt7em"]
+
+[resource]
+script = ExtResource("1_jt7em")
+name = "Tulip"
+semantics = {
+"beauty": 4,
+"joy": 0,
+"love": 1,
+"memory": 2,
+"purity": 1,
+"spiritual": 2
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"

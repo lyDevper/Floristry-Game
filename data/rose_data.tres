@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://cudbbkkllym17"]
+
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_qmect"]
+
+[resource]
+script = ExtResource("1_qmect")
+name = "Rose"
+subtype = "red"
+semantics = {
+"beauty": 2,
+"joy": 3,
+"love": 6,
+"memory": 0,
+"purity": 2,
+"spiritual": 0
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"

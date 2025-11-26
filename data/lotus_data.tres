@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://cr87xg0cvb86p"]
+
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_ncvu5"]
+
+[resource]
+script = ExtResource("1_ncvu5")
+name = "Lotus"
+semantics = {
+"beauty": 1,
+"joy": 2,
+"love": 0,
+"memory": 0,
+"purity": 3,
+"spiritual": 5
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6n4bfoulg2u4"]
+
+[ext_resource type="PackedScene" uid="uid://djp71neybbibg" path="res://scenes/flowers/FlowerObject.tscn" id="1_vy0i2"]
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="2_vy0i2"]
+
+[sub_resource type="Resource" id="Resource_csalf"]
+script = ExtResource("2_vy0i2")
+name = "tulip"
+semantics = {
+"beauty": 5,
+"joy": 0,
+"love": 0,
+"memory": 3,
+"purity": 3,
+"spiritual": 0
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"
+
+[node name="FlowerObject" instance=ExtResource("1_vy0i2")]
+data = SubResource("Resource_csalf")
