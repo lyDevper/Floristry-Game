@@ -9,7 +9,7 @@ func _ready():
 
 func _on_body_entered(body):
 	if body.is_in_group("player"):
-		scoreManager.collect_flower(data)
+		bagManager.collect_flower(data)
 		queue_free()
 		#print(data.name, ' collided!')
 		#print(data.semantics)

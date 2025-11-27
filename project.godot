@@ -17,4 +17,4 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-scoreManager="*res://scripts/ScoreManager.gd"
+bagManager="*res://scripts/BagManager.gd"

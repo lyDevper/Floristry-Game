@@ -1,5 +1,5 @@
 extends Node
-class_name ScoreManager
+class_name BagManager
 
 var collected_flowers: Array = []
 
