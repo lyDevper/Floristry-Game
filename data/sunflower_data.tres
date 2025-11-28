@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://nbdsg6gao2vm"]
+
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_l3p67"]
+
+[resource]
+script = ExtResource("1_l3p67")
+name = "Sunflower"
+subtype = "yellow"
+semantics = {
+"Healing": 7,
+"beauty": 5,
+"joy": 10,
+"love": 2,
+"memory": 2,
+"spiritual": 3
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"

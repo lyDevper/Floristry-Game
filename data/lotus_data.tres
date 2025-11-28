@@ -5,12 +5,13 @@
 [resource]
 script = ExtResource("1_ncvu5")
 name = "Lotus"
+subtype = "pink"
 semantics = {
-"beauty": 1,
+"Healing": 7,
+"beauty": 7,
 "joy": 2,
-"love": 0,
-"memory": 0,
-"purity": 3,
-"spiritual": 5
+"love": 2,
+"memory": 4,
+"spiritual": 10
 }
 metadata/_custom_type_script = "uid://3v0ddeax3uex"

@@ -6,11 +6,11 @@
 script = ExtResource("1_jt7em")
 name = "Tulip"
 semantics = {
-"beauty": 4,
-"joy": 0,
-"love": 1,
+"Healing": 5,
+"beauty": 8,
+"joy": 6,
+"love": 8,
 "memory": 2,
-"purity": 1,
 "spiritual": 2
 }
 metadata/_custom_type_script = "uid://3v0ddeax3uex"

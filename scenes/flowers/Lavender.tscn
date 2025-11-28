@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwrk48wx15vpt"]
+
+[ext_resource type="PackedScene" uid="uid://djp71neybbibg" path="res://scenes/flowers/FlowerObject.tscn" id="1_jk0xg"]
+[ext_resource type="Resource" uid="uid://bb31wpekc7ol7" path="res://data/lavender_data.tres" id="2_rhqxe"]
+[ext_resource type="Texture2D" uid="uid://bjilpxpcvqse8" path="res://images/lavender_pix.png" id="3_8wime"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tvbna"]
+radius = 9.0
+height = 28.0
+
+[node name="Lavender" instance=ExtResource("1_jk0xg")]
+data = ExtResource("2_rhqxe")
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(0.037109375, 0.037109375)
+texture = ExtResource("3_8wime")
+
+[node name="CollisionShape2D" parent="Area2D" index="0"]
+shape = SubResource("CapsuleShape2D_tvbna")

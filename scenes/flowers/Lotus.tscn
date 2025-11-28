@@ -2,11 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://djp71neybbibg" path="res://scenes/flowers/FlowerObject.tscn" id="1_13gdx"]
 [ext_resource type="Resource" uid="uid://cr87xg0cvb86p" path="res://data/lotus_data.tres" id="2_tbifh"]
-[ext_resource type="Texture2D" uid="uid://dmbuoswi15sng" path="res://images/lotus.png" id="3_tbifh"]
+[ext_resource type="Texture2D" uid="uid://r50k25ob4dn0" path="res://images/lotus_pix.png" id="3_tbifh"]
 
 [node name="Lotus" instance=ExtResource("1_13gdx")]
 data = ExtResource("2_tbifh")
 
 [node name="Sprite2D" parent="." index="0"]
-scale = Vector2(0.0888889, 0.088888906)
+position = Vector2(0, -1)
+scale = Vector2(0.04492188, 0.044921882)
 texture = ExtResource("3_tbifh")

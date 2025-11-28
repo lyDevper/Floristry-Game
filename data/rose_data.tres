@@ -7,11 +7,11 @@ script = ExtResource("1_qmect")
 name = "Rose"
 subtype = "red"
 semantics = {
-"beauty": 2,
-"joy": 3,
-"love": 6,
-"memory": 0,
-"purity": 2,
-"spiritual": 0
+"Healing": 6,
+"beauty": 9,
+"joy": 5,
+"love": 10,
+"memory": 4,
+"spiritual": 2
 }
 metadata/_custom_type_script = "uid://3v0ddeax3uex"

@@ -5,7 +5,7 @@ class_name FlowerData
 @export var subtype: String = ""  # optional (e.g. Red, White)
 @export var semantics := {
 	"love": 0,
-	"purity": 0,
+	"Healing": 0,
 	"joy": 0,
 	"memory": 0,
 	"beauty": 0,

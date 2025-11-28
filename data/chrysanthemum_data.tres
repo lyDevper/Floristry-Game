@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://bk4rs08qw40hj"]
+
+[ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_voxsr"]
+
+[resource]
+script = ExtResource("1_voxsr")
+name = "Chrysanthemum"
+subtype = "yellow"
+semantics = {
+"Healing": 3,
+"beauty": 4,
+"joy": 4,
+"love": 2,
+"memory": 10,
+"spiritual": 5
+}
+metadata/_custom_type_script = "uid://3v0ddeax3uex"

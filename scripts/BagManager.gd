@@ -5,7 +5,7 @@ var collected_flowers: Array = []
 
 var total_semantics := {
 	"love": 0,
-	"purity": 0,
+	"Healing": 0,
 	"joy": 0,
 	"memory": 0,
 	"beauty": 0,
