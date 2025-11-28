@@ -9,7 +9,10 @@ func _ready():
 
 func _on_body_entered(body):
 	if body.is_in_group("player"):
+		## player collision detected
 		bagManager.collect_flower(data)
+		$AnimationPlayer.play("fade_out")
+		await $AnimationPlayer.animation_finished
 		queue_free()
 		#print(data.name, ' collided!')
 		#print(data.semantics)
