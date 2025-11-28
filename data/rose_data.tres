@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://cudbbkkllym17"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://cudbbkkllym17"]
 
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_qmect"]
+[ext_resource type="Texture2D" uid="uid://dw7uqfcwkus7v" path="res://images/rose_pix.png" id="2_84js8"]
 
 [resource]
 script = ExtResource("1_qmect")
 name = "Rose"
 subtype = "red"
+texture = ExtResource("2_84js8")
 semantics = {
 "Healing": 6,
 "beauty": 9,

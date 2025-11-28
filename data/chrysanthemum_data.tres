@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://bk4rs08qw40hj"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://bk4rs08qw40hj"]
 
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_voxsr"]
+[ext_resource type="Texture2D" uid="uid://ceigjnxp5ufqd" path="res://images/chrysanthemum_pix.png" id="2_ey6ko"]
 
 [resource]
 script = ExtResource("1_voxsr")
 name = "Chrysanthemum"
 subtype = "yellow"
+texture = ExtResource("2_ey6ko")
 semantics = {
 "Healing": 3,
 "beauty": 4,

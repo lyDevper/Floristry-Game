@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3 uid="uid://cr87xg0cvb86p"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://cr87xg0cvb86p"]
 
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_ncvu5"]
+[ext_resource type="Texture2D" uid="uid://r50k25ob4dn0" path="res://images/lotus_pix.png" id="2_42p8e"]
 
 [resource]
 script = ExtResource("1_ncvu5")
 name = "Lotus"
 subtype = "pink"
+texture = ExtResource("2_42p8e")
 semantics = {
 "Healing": 7,
 "beauty": 7,
