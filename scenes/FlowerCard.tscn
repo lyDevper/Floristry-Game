@@ -5,7 +5,12 @@
 [ext_resource type="Texture2D" uid="uid://dw7uqfcwkus7v" path="res://images/rose_pix.png" id="3_y4spa"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_earyn"]
-bg_color = Color(0.79, 0.69599, 0.6557, 1)
+bg_color = Color(0.81640625, 0.7640853, 0.6824646, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.4862745, 0.40392157, 0.37254903, 1)
 corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
@@ -17,7 +22,7 @@ font_weight = 200
 [sub_resource type="LabelSettings" id="LabelSettings_l3wr0"]
 font = SubResource("SystemFont_rh8th")
 font_size = 20
-font_color = Color(0, 0, 0, 1)
+font_color = Color(0.296875, 0.22761704, 0.19714355, 1)
 
 [node name="FlowerCard" type="Panel"]
 custom_minimum_size = Vector2(300, 75)

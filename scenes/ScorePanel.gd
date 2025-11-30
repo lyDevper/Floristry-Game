@@ -5,7 +5,7 @@ extends Panel
 
 # Function to update the score text in the label
 func render_score():
-	var score_text = "Your floristry features :\n"
+	var score_text = "Your Floristry Features :\n"
 	score_text += "\n"
 	# Loop through all semantics and display their score
 	for key in floristryScore.total_semantics.keys():
