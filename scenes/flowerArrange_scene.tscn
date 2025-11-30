@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://bkuh8f77ua8fp"]
+
+[ext_resource type="PackedScene" uid="uid://cykeab16i3v7u" path="res://scenes/FlowerCard.tscn" id="1_c2tyu"]
+[ext_resource type="Script" uid="uid://cj8p6rrw8y1aw" path="res://scenes/FlowerBucket.gd" id="1_earyn"]
+[ext_resource type="PackedScene" uid="uid://bmbp4cpl2kt83" path="res://scenes/FlowerBody.tscn" id="3_earyn"]
+
+[sub_resource type="Gradient" id="Gradient_5k0ej"]
+colors = PackedColorArray(0.94509804, 0.7607843, 0.48235294, 1, 0.95, 0.80939996, 0.5985, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_nfgb7"]
+gradient = SubResource("Gradient_5k0ej")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c2tyu"]
+bg_color = Color(0.96, 0.9456, 0.7872, 1)
+
+[node name="SceneRoot" type="Node2D"]
+
+[node name="Background" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Background"]
+position = Vector2(575.5, 322.5)
+scale = Vector2(17.984375, 10.046875)
+texture = SubResource("GradientTexture2D_nfgb7")
+
+[node name="Canvas" type="Panel" parent="."]
+offset_left = 27.0
+offset_top = 25.0
+offset_right = 800.0
+offset_bottom = 619.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_c2tyu")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_left = 820.0
+offset_top = 25.0
+offset_right = 1126.0
+offset_bottom = 619.0
+
+[node name="FlowerBucket" type="VBoxContainer" parent="ScrollContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+script = ExtResource("1_earyn")
+
+[node name="FlowerCard" parent="ScrollContainer/FlowerBucket" instance=ExtResource("1_c2tyu")]
+layout_mode = 2
+
+[node name="FLowerBody" parent="." instance=ExtResource("3_earyn")]
+position = Vector2(394, 267)
+
+[node name="DragLayer" type="CanvasLayer" parent="."]

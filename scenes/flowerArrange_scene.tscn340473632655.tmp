@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://bkuh8f77ua8fp"]
+
+[ext_resource type="Script" uid="uid://betmj1x14xejw" path="res://scripts/FlowerCard.gd" id="1_c2tyu"]
+[ext_resource type="Texture2D" uid="uid://dw7uqfcwkus7v" path="res://images/rose_pix.png" id="1_nfgb7"]
+[ext_resource type="PackedScene" uid="uid://bmbp4cpl2kt83" path="res://scenes/FlowerBody.tscn" id="3_earyn"]
+
+[sub_resource type="Gradient" id="Gradient_5k0ej"]
+colors = PackedColorArray(0.94509804, 0.7607843, 0.48235294, 1, 0.95, 0.80939996, 0.5985, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_nfgb7"]
+gradient = SubResource("Gradient_5k0ej")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c2tyu"]
+bg_color = Color(0.96, 0.9456, 0.7872, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_earyn"]
+bg_color = Color(0.79, 0.69599, 0.6557, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="SceneRoot" type="Node2D"]
+
+[node name="Background" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Background"]
+position = Vector2(575.5, 322.5)
+scale = Vector2(17.984375, 10.046875)
+texture = SubResource("GradientTexture2D_nfgb7")
+
+[node name="Canvas" type="Panel" parent="."]
+offset_left = 27.0
+offset_top = 25.0
+offset_right = 778.0
+offset_bottom = 619.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_c2tyu")
+
+[node name="FLowerList" type="Panel" parent="."]
+offset_left = 803.0
+offset_top = 25.0
+offset_right = 1122.0
+offset_bottom = 617.0
+
+[node name="FlowerCard" type="Node2D" parent="FLowerList"]
+position = Vector2(42, 33)
+script = ExtResource("1_c2tyu")
+
+[node name="Panel" type="Panel" parent="FLowerList/FlowerCard"]
+offset_right = 244.0
+offset_bottom = 94.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_earyn")
+
+[node name="Sprite2D" type="Sprite2D" parent="FLowerList/FlowerCard/Panel"]
+position = Vector2(46, 47)
+scale = Vector2(0.08593751, 0.08593751)
+texture = ExtResource("1_nfgb7")
+
+[node name="FLowerBofy" parent="." instance=ExtResource("3_earyn")]
+position = Vector2(394, 267)

@@ -18,3 +18,4 @@ config/icon="res://icon.svg"
 [autoload]
 
 bagManager="*res://scripts/BagManager.gd"
+floristryScore="*res://scripts/FloristryScore.gd"
