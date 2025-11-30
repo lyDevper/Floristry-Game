@@ -32,6 +32,12 @@ func start_drag():
 func _process(delta):
 	if is_dragging:
 		global_position = get_global_mouse_position()
+		
+		 # check keyboard input for rotation
+		if Input.is_key_pressed(KEY_A):
+			rotation_degrees -= 90 * delta
+		elif Input.is_key_pressed(KEY_D):
+			rotation_degrees += 90 * delta
 
 func _input(event):
 	if not is_dragging:

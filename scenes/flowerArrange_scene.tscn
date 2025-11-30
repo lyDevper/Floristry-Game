@@ -1,8 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bkuh8f77ua8fp"]
+[gd_scene load_steps=6 format=3 uid="uid://bkuh8f77ua8fp"]
 
 [ext_resource type="PackedScene" uid="uid://cykeab16i3v7u" path="res://scenes/FlowerCard.tscn" id="1_c2tyu"]
 [ext_resource type="Script" uid="uid://cj8p6rrw8y1aw" path="res://scenes/FlowerBucket.gd" id="1_earyn"]
-[ext_resource type="PackedScene" uid="uid://bmbp4cpl2kt83" path="res://scenes/FlowerBody.tscn" id="3_earyn"]
 
 [sub_resource type="Gradient" id="Gradient_5k0ej"]
 colors = PackedColorArray(0.94509804, 0.7607843, 0.48235294, 1, 0.95, 0.80939996, 0.5985, 1)
@@ -46,7 +45,12 @@ script = ExtResource("1_earyn")
 [node name="FlowerCard" parent="ScrollContainer/FlowerBucket" instance=ExtResource("1_c2tyu")]
 layout_mode = 2
 
-[node name="FLowerBody" parent="." instance=ExtResource("3_earyn")]
-position = Vector2(394, 267)
-
 [node name="DragLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 18.0
+offset_top = 572.0
+offset_right = 199.0
+offset_bottom = 627.0
+mouse_default_cursor_shape = 2
+text = "Submit!!!"

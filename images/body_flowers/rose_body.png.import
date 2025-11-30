@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnaxeetcb1oex"
-path="res://.godot/imported/tulip_vase.png-aac0b2e7cb4eae319f61682a9090a121.ctex"
+uid="uid://dnwloblqnawbw"
+path="res://.godot/imported/rose_body.png-e09c4b47f2cc95a4d0cee7516c158dcd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/vase_flowers/tulip_vase.png"
-dest_files=["res://.godot/imported/tulip_vase.png-aac0b2e7cb4eae319f61682a9090a121.ctex"]
+source_file="res://images/body_flowers/rose_body.png"
+dest_files=["res://.godot/imported/rose_body.png-e09c4b47f2cc95a4d0cee7516c158dcd.ctex"]
 
 [params]
 

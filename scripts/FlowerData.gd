@@ -4,6 +4,7 @@ class_name FlowerData
 @export var name: String
 @export var subtype: String = ""  # optional (e.g. Red, White)
 @export var texture: Texture2D
+@export var bodyImage: Texture2D
 @export var semantics := {
 	"love": 0,
 	"Healing": 0,

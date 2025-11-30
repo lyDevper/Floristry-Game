@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cq30a3vgdu8p3"
-path="res://.godot/imported/chrysanthemum_vase.png-25d7ab837417e68c619ca35a553f354b.ctex"
+uid="uid://coreqloi02bw8"
+path="res://.godot/imported/hydrangea_body.png-50d26e9120b44ee5f9b8179481ec54cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/vase_flowers/chrysanthemum_vase.png"
-dest_files=["res://.godot/imported/chrysanthemum_vase.png-25d7ab837417e68c619ca35a553f354b.ctex"]
+source_file="res://images/body_flowers/hydrangea_body.png"
+dest_files=["res://.godot/imported/hydrangea_body.png-50d26e9120b44ee5f9b8179481ec54cb.ctex"]
 
 [params]
 

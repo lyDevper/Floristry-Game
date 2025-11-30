@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://bh6dd88r00yyn"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=4 format=3 uid="uid://bh6dd88r00yyn"]
 
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_jt7em"]
+[ext_resource type="Texture2D" uid="uid://dproutqdhdwnc" path="res://images/body_flowers/tulip_body.png" id="1_rctwg"]
 [ext_resource type="Texture2D" uid="uid://c15g8lpgehasu" path="res://images/tulip_pix.png" id="2_tpq33"]
 
 [resource]
 script = ExtResource("1_jt7em")
 name = "Tulip"
 texture = ExtResource("2_tpq33")
+bodyImage = ExtResource("1_rctwg")
 semantics = {
 "Healing": 5,
 "beauty": 8,

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgw8eyh81s5so"
-path="res://.godot/imported/sunflower_vase.png-06050214f3ee0500a43a9b4201080f86.ctex"
+uid="uid://iagapxypat7u"
+path="res://.godot/imported/sunflower_body.png-e6d6d37eb9227d690feeafb649b8c897.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/vase_flowers/sunflower_vase.png"
-dest_files=["res://.godot/imported/sunflower_vase.png-06050214f3ee0500a43a9b4201080f86.ctex"]
+source_file="res://images/body_flowers/sunflower_body.png"
+dest_files=["res://.godot/imported/sunflower_body.png-e6d6d37eb9227d690feeafb649b8c897.ctex"]
 
 [params]
 

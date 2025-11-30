@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://bb31wpekc7ol7"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=4 format=3 uid="uid://bb31wpekc7ol7"]
 
+[ext_resource type="Texture2D" uid="uid://dfrp6vq7e7f7n" path="res://images/body_flowers/lavender_body.png" id="1_sx1ae"]
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_yiarf"]
 [ext_resource type="Texture2D" uid="uid://bjilpxpcvqse8" path="res://images/lavender_pix.png" id="2_jxfa1"]
 
@@ -8,6 +9,7 @@ script = ExtResource("1_yiarf")
 name = "Lavender"
 subtype = "purple"
 texture = ExtResource("2_jxfa1")
+bodyImage = ExtResource("1_sx1ae")
 semantics = {
 "Healing": 9,
 "beauty": 5,

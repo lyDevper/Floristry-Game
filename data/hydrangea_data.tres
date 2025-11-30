@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="FlowerData" load_steps=3 format=3 uid="uid://dma868qg6x377"]
+[gd_resource type="Resource" script_class="FlowerData" load_steps=4 format=3 uid="uid://dma868qg6x377"]
 
 [ext_resource type="Script" uid="uid://3v0ddeax3uex" path="res://scripts/FlowerData.gd" id="1_2m2tl"]
+[ext_resource type="Texture2D" uid="uid://coreqloi02bw8" path="res://images/body_flowers/hydrangea_body.png" id="1_agknp"]
 [ext_resource type="Texture2D" uid="uid://drsillxqbryt4" path="res://images/hydrangea_pix.png" id="2_b0v28"]
 
 [resource]
@@ -8,6 +9,7 @@ script = ExtResource("1_2m2tl")
 name = "Hydrangea"
 subtype = "blue"
 texture = ExtResource("2_b0v28")
+bodyImage = ExtResource("1_agknp")
 semantics = {
 "Healing": 7,
 "beauty": 8,

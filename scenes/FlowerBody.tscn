@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bmbp4cpl2kt83"]
 
-[ext_resource type="Texture2D" uid="uid://dkk3yhp302xcw" path="res://images/vase_flowers/rose_vase.png" id="1_6lerb"]
 [ext_resource type="Script" uid="uid://dchjj5j4jt34s" path="res://scripts/FlowerBody.gd" id="1_xxo3l"]
+[ext_resource type="Texture2D" uid="uid://dnwloblqnawbw" path="res://images/body_flowers/rose_body.png" id="2_jhvxh"]
 [ext_resource type="Script" uid="uid://4m4ardq5rbj8" path="res://scenes/FlowerBody_Panel.gd" id="3_jhvxh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xxo3l"]
@@ -17,7 +17,7 @@ shape = SubResource("RectangleShape2D_xxo3l")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.15820313, 0.15820313)
-texture = ExtResource("1_6lerb")
+texture = ExtResource("2_jhvxh")
 
 [node name="Panel" type="Panel" parent="."]
 anchors_preset = 8

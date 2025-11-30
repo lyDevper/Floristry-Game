@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3lupvk5i2td2"
-path="res://.godot/imported/lotus_vase.png-5ec6bb935359a7ebd7aa9fb5728964f4.ctex"
+uid="uid://dfrp6vq7e7f7n"
+path="res://.godot/imported/lavender_body.png-d62d85291d331d755844989884e3f596.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/vase_flowers/lotus_vase.png"
-dest_files=["res://.godot/imported/lotus_vase.png-5ec6bb935359a7ebd7aa9fb5728964f4.ctex"]
+source_file="res://images/body_flowers/lavender_body.png"
+dest_files=["res://.godot/imported/lavender_body.png-d62d85291d331d755844989884e3f596.ctex"]
 
 [params]
 

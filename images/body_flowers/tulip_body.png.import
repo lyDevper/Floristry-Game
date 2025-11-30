@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uddoxwsodcaj"
-path="res://.godot/imported/hydrangea_vase.png-b2e7470e3b60f26e41545cc6f4714c32.ctex"
+uid="uid://dproutqdhdwnc"
+path="res://.godot/imported/tulip_body.png-f012b68313368184b74a8ed3c58bf0fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/vase_flowers/hydrangea_vase.png"
-dest_files=["res://.godot/imported/hydrangea_vase.png-b2e7470e3b60f26e41545cc6f4714c32.ctex"]
+source_file="res://images/body_flowers/tulip_body.png"
+dest_files=["res://.godot/imported/tulip_body.png-f012b68313368184b74a8ed3c58bf0fe.ctex"]
 
 [params]
 

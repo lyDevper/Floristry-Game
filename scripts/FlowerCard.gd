@@ -20,7 +20,7 @@ func _gui_input(event):
 func _spawn_flower_body():
 	var fb = flower_body_scene.instantiate()
 	#fb.init_from_data(flower_data)
-	fb.get_node("Sprite2D").texture = flower_data.texture
+	fb.get_node("Sprite2D").texture = flower_data.bodyImage
 	drag_layer.add_child(fb)
 
 	# start dragging at mouse spot
