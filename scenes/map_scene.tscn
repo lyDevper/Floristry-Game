@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://w2kak86npqmf"]
+[gd_scene load_steps=15 format=3 uid="uid://w2kak86npqmf"]
 
 [ext_resource type="Texture2D" uid="uid://bfwrkmv1oy6c2" path="res://images/mapbkg.png" id="1_0wcw4"]
 [ext_resource type="PackedScene" uid="uid://c24r5a28pxn7r" path="res://scenes/flowers/Rose.tscn" id="2_ne7uw"]
@@ -11,13 +11,14 @@
 [ext_resource type="PackedScene" uid="uid://bwrk48wx15vpt" path="res://scenes/flowers/Lavender.tscn" id="9_od1u7"]
 [ext_resource type="PackedScene" uid="uid://c6n4bfoulg2u4" path="res://scenes/flowers/Tulip.tscn" id="10_l1wjf"]
 [ext_resource type="Script" uid="uid://cu3vfcjay6fki" path="res://scripts/home.gd" id="11_f0c3g"]
+[ext_resource type="Texture2D" uid="uid://cn3dpvvbl87vw" path="res://images/house.png" id="12_od1u7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5m4q6"]
 radius = 15.0
 height = 68.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u73mt"]
-size = Vector2(30, 44)
+size = Vector2(42, 36)
 
 [node name="SceneRoot" type="Node2D"]
 
@@ -95,3 +96,7 @@ position = Vector2(111, 263)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Home/Area2D"]
 shape = SubResource("RectangleShape2D_u73mt")
+
+[node name="Sprite2D" type="Sprite2D" parent="Home/Area2D"]
+scale = Vector2(0.14444442, 0.14444438)
+texture = ExtResource("12_od1u7")

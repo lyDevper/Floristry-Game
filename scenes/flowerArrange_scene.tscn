@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://bkuh8f77ua8fp"]
+[gd_scene load_steps=11 format=3 uid="uid://bkuh8f77ua8fp"]
 
 [ext_resource type="PackedScene" uid="uid://cykeab16i3v7u" path="res://scenes/FlowerCard.tscn" id="1_c2tyu"]
 [ext_resource type="Script" uid="uid://cj8p6rrw8y1aw" path="res://scenes/FlowerBucket.gd" id="1_earyn"]
+[ext_resource type="Script" uid="uid://ccdwrgvhwjybb" path="res://scripts/SubmitBtn.gd" id="3_earyn"]
+[ext_resource type="Script" uid="uid://cd3mha31lm4t5" path="res://scenes/ScorePanel.gd" id="4_1pm1s"]
 
 [sub_resource type="Gradient" id="Gradient_5k0ej"]
 colors = PackedColorArray(0.94509804, 0.7607843, 0.48235294, 1, 0.95, 0.80939996, 0.5985, 1)
@@ -11,6 +13,17 @@ gradient = SubResource("Gradient_5k0ej")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c2tyu"]
 bg_color = Color(0.96, 0.9456, 0.7872, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_earyn"]
+bg_color = Color(0.9233856, 0.94125986, 0.95703125, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_1pm1s"]
+font_weight = 200
+
+[sub_resource type="LabelSettings" id="LabelSettings_afopg"]
+font = SubResource("SystemFont_1pm1s")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
 
 [node name="SceneRoot" type="Node2D"]
 
@@ -47,10 +60,29 @@ layout_mode = 2
 
 [node name="DragLayer" type="CanvasLayer" parent="."]
 
-[node name="Button" type="Button" parent="."]
+[node name="SubmitBtn" type="Button" parent="."]
 offset_left = 18.0
 offset_top = 572.0
 offset_right = 199.0
 offset_bottom = 627.0
 mouse_default_cursor_shape = 2
 text = "Submit!!!"
+script = ExtResource("3_earyn")
+
+[node name="ScorePanel" type="Panel" parent="."]
+visible = false
+offset_left = 821.0
+offset_top = 22.0
+offset_right = 1124.0
+offset_bottom = 613.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_earyn")
+script = ExtResource("4_1pm1s")
+
+[node name="Label" type="Label" parent="ScorePanel"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 21.0
+offset_right = 288.0
+offset_bottom = 564.0
+text = "Lorem Ipsum"
+label_settings = SubResource("LabelSettings_afopg")
